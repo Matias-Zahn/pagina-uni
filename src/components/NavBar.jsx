@@ -7,7 +7,7 @@ function NavBar() {
 
   return (
     <nav>
-      <section className="fixed right-0 left-0 bg-slate-700 text-white flex  gap-3 justify-between p-2 items-center">
+      <section className="fixed right-0 left-0 bg-slate-700 text-white flex  gap-3 justify-between p-2 items-center px-10">
         <div className="hidden md:flex-row gap-5 md:flex text-center ">
           <ShowMenu />
         </div>
