@@ -17,6 +17,8 @@ function PrincipalContent() {
             alt=""
           />
           <img
+            onMouseLeave={() => setIsHover(false)}
+            onMouseEnter={() => setIsHover(true)}
             className={isHover ? "h-auto" : "h-0"}
             src="/flayerBlack.jpeg"
             alt=""
